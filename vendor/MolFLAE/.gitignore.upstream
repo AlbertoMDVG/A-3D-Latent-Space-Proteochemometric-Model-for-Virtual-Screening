@@ -1,0 +1,4 @@
+ckpt-zinc9M/
+data/
+*.pyc
+*.sdf

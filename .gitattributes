@@ -1,0 +1,5 @@
+*.sh text eol=lf
+*.sbatch text eol=lf
+src/**/*.py text eol=lf
+vendor/** -text
+*.ckpt binary
