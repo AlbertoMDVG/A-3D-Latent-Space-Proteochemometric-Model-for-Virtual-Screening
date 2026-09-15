@@ -1,8 +1,6 @@
 # A 3D Latent-Space Proteochemometric Model for Virtual Screening
 
-This is the code for my MSc dissertation.
-
-It follows a proteochemometrics approach. A frozen
+This code follows a proteochemometrics approach to virtual screening using BigBind Dataset. A frozen
 [MolFLAE](https://github.com/kirito-cpu/MolFLAE) encoder turns a ligand into a latent vector.
 The same encoder turns a protein pocket into a latent vector (in three different ways). The two vectors are concatenated together, and a classifier is trained on them to predict binding.
 
